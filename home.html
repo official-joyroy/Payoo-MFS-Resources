@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+        *{
+            color: black;
+        }
+     </style>
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="mockup-phone-camera"></div>
+             <div class="mockup-phone-display text-white grid place-content-center bg-neutral-400">
+                <!-- available balenc start -->
+                 <div>
+                    <div class="stats shadow">
+                      <div class="stat">
+                        <div class="stat-value">8400</div>
+                        <div class="stat-desc">availabel balenc</div>
+                      </div>
+                    </div>
+                 </div>
+                  <div class="divider"></div>
+                <!-- user action button -->
+                   <div>
+                      <button class="btn btn-xl">add mani</button>
+                      <button class="btn btn-xl">cash out</button>
+                   </div>
+                 <!-- available balenc end -->
+                    
+                 <div class="divider"></div>
+                 <!-- ad mani form -->
+                  <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
+                     <legend class="fieldset-legend"></legend>
+
+                     <label class="label">amaunt</label>
+                    <input type="email" class="input" placeholder="amaunt" />
+
+                     <label class="label">Password</label>
+                     <input type="password" class="input" placeholder="Password" />
+
+                     <button class="btn btn-neutral mt-4 bg-pink-500">Login</button>
+                  </fieldset>
+                  <!-- ad mani end -->  
+             </div>
+       </div>
+    </main>
+    <script src="home.js"></script>
+</body>
+</html>
