@@ -21,7 +21,7 @@
                  <div>
                     <div class="stats shadow">
                       <div class="stat">
-                        <div id="balance" class="stat-value">8400</div>
+                        <div id="accound-balance" class="stat-value">8400</div>
                         <div class="stat-desc">availabel balenc</div>
                       </div>
                     </div>
@@ -29,14 +29,14 @@
                   <div class="divider"></div>
                 <!-- user action button -->
                    <div>
-                      <button class="btn btn-xl">add mani</button>
-                      <button class="btn btn-xl">cash out</button>
+                      <button id="button-sho-add-mani" class="btn btn-xl">add mani</button>
+                      <button id="button-sho-chash out" class="btn btn-xl">cash out</button>
                    </div>
                  <!-- available balenc end -->
                     
                  <div class="divider"></div>
                  <!-- ad mani form -->
-                  <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
+                  <fieldset id="add-mani-form" class=" fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
                      <legend class="fieldset-legend"></legend>
 
                      <label class="label">amaunt</label>
@@ -47,10 +47,26 @@
 
                      <button id="button-admany" class="btn btn-neutral mt-4 bg-pink-500">addmany</button>
                   </fieldset>
-                  <!-- ad mani end -->  
+                  <!-- ad mani end --> 
+                   
+                  <!-- cash out start  -->
+                   <fieldset id="chase-out-form" class="hidden fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
+                     <legend class="fieldset-legend"></legend>
+
+                     <label class="label">amaunt</label>
+                    <input id="input-cahsout" type="email" class="input" placeholder="amaunt" />
+
+                     <label class="label">Password</label>
+                     <input id="cas-out-pin" type="password" class="input" placeholder="Password" />
+
+                     <button id="button-cashout" class="btn btn-neutral mt-4 bg-pink-500">chase out</button>
+                  </fieldset>
+                   <!-- chash out end -->
              </div>
        </div>
     </main>
-    <script src="home.js"></script>
+    <script src="addmonay.js"></script>
+    <script src="cashout.js"></script>
+    <script src="fichas.js"></script>
 </body>
 </html>
